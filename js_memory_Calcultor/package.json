@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "name": "js_memory_calcultor",
+  "description": "memory_Calculator.js; Memory calcultor when dealing with bytes, creates a human readable output in 'B', 'KB', 'MB', 'GB', 'TB'",
+  "version": "1.0.0",
+  "main": "memory_Calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaveBeCoding/Helper_JS_Files/tree/main/js_memory_Calcultor"
+  },
+  "keywords": [
+    "Helper",
+    "Files"
+  ],
+  "author": "DaveBeCoding",
+  "license": "MIT"
 }

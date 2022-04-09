@@ -10,7 +10,7 @@ const formatSize = size => {
     )
 }
 
-let example = 2048 * 1000
+let example = 1024         // 2048 * 1000
 console.log(formatSize(example))
 
 
