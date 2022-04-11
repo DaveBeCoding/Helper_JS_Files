@@ -8,7 +8,9 @@ Converts CSV to JSON object array
 npm install -> npm i
 ``` 
 
-# EXAMPLE
+# EXAMPLE 
+
+sample.csv <- local file 
 
 ```console
 id,name,email,country,age
@@ -52,15 +54,8 @@ id,name,email,country,age
   }
 ]
 
-```console
-
-id,name,email,country,age
-100,John Doe,john@website.com,US,35
-101,Jane Doe,jane@website.com,UK,30
-102,John Lee,john@website.com,FR,20
-103,Greg Hoover,greg@website.com,US,35
-
 ```
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
