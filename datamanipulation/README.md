@@ -8,6 +8,16 @@ Converts CSV to JSON object array
 npm install -> npm i
 ``` 
 
+# EXAMPLE
+
+```console
+id,name,email,country,age
+100,John Doe,john@website.com,US,35
+101,Jane Doe,jane@website.com,UK,30
+102,John Lee,john@website.com,FR,20
+103,Greg Hoover,greg@website.com,US,35
+```
+
 # SAMPLE OUTPUT
 
 ```yaml
@@ -41,6 +51,15 @@ npm install -> npm i
     age: '35'
   }
 ]
+
+```console
+
+id,name,email,country,age
+100,John Doe,john@website.com,US,35
+101,Jane Doe,jane@website.com,UK,30
+102,John Lee,john@website.com,FR,20
+103,Greg Hoover,greg@website.com,US,35
+
 ```
 
 ## License
