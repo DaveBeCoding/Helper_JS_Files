@@ -3,14 +3,9 @@
 Object.keys() takes an object and returns an array of the object’s properties.
  By chaining the Object.keys() with the forEach() method, you can access 
  the keys and values of an object. Note that the Object.keys() 
- method was introduced in ES6. For example:
-
-
-
-
+ method was introduced in ES6. For example: -> 
 
 */
-
 
 let person = {
     firstName: 'John',
