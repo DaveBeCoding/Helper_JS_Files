@@ -1,4 +1,4 @@
-# App,js
+# App.js
 
 Converts CSV to JSON object array
 
@@ -6,11 +6,11 @@ Converts CSV to JSON object array
 
 ```js script
 npm install -> npm i
-``` 
+```
 
-# EXAMPLE 
+# EXAMPLE
 
-sample.csv <- local file 
+sample.csv <- local file
 
 ```console
 id,name,email,country,age
@@ -25,37 +25,36 @@ id,name,email,country,age
 ```yaml
 [
   {
-    id: '100',
-    name: 'John Doe',
-    email: 'john@website.com',
-    country: 'US',
-    age: '35'
+    id: "100",
+    name: "John Doe",
+    email: "john@website.com",
+    country: "US",
+    age: "35",
   },
   {
-    id: '101',
-    name: 'Jane Doe',
-    email: 'jane@website.com',
-    country: 'UK',
-    age: '30'
+    id: "101",
+    name: "Jane Doe",
+    email: "jane@website.com",
+    country: "UK",
+    age: "30",
   },
   {
-    id: '102',
-    name: 'John Lee',
-    email: 'john@website.com',
-    country: 'FR',
-    age: '20'
+    id: "102",
+    name: "John Lee",
+    email: "john@website.com",
+    country: "FR",
+    age: "20",
   },
   {
-    id: '103',
-    name: 'Greg Hoover',
-    email: 'greg@website.com',
-    country: 'US',
-    age: '35'
-  }
+    id: "103",
+    name: "Greg Hoover",
+    email: "greg@website.com",
+    country: "US",
+    age: "35",
+  },
 ]
-
 ```
 
-
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
