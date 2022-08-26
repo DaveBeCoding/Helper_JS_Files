@@ -1,1 +1,1 @@
-## Graph = nodes + edges 
+## Graph = nodes(vertex) + edges(weight) 
