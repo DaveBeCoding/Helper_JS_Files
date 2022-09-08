@@ -1,8 +1,8 @@
 /**
- *  n = # nodes
- * e = # edges
+ * n = # nodes
+ * e = # edges -> n^2 = # edges
  *
- * Time O(e)
+ * Time O(e) -> O(n^2)
  * space O(n)
  **/
 
