@@ -11,12 +11,26 @@ k: []
 hashPath(graph, 'f', 'k');
 */
 
-const hashPath = (graph, src, dst) => {
+const dfs_hashPath = (graph, src, dst) => {
   if (src == dst) return true;
 
   for (let neighbor of graph[src]) {
-    if (hashPath(graph, neighbor, dst) == true) {
+    if (dfs_hashPath(graph, neighbor, dst) == true) {
       return true;
+    }
+  }
+  return false;
+};
+
+const bfs_hashPath = (graph, src, dst) => {
+  const queue = [src];
+
+  while (queue.length > 0) {
+    const current = queue.shift(); //front
+    if (current == dst) return true;
+
+    for (let neighbor of graph[current]) {
+      queue.push(neighbor); // back
     }
   }
   return false;
@@ -35,6 +49,9 @@ const graph = {
   k: [],
 };
 
-const r_value = hashPath(graph, "f", "k");
+const r_value = dfs_hashPath(graph, "f", "k");
 
-console.log("The result is -> " + r_value);
+const r2_value = bfs_hashPath(graph, "f", "k");
+
+// console.log("The result is r -> " + r_value);
+// console.log("The result is r2 -> " + r2_value);
