@@ -1,3 +1,11 @@
+/**
+ *  n = # nodes
+ * e = # edges
+ *
+ * Time O(e)
+ * space O(n)
+ **/
+
 const depthFirstPrint = (graph, source) => {
   const stack = [source];
 
